@@ -26,11 +26,15 @@ import {
   emrlogo,
 } from "../assets";
 
+import Hero from "../components/Hero";
+
 export const navLinks = [
    {
-    id: "about",
-    title: "About",
+    id: "hero",
+    title: "Home",
+    path : '/'
   },
+  
   {
     id: "work",
     title: "Work",
@@ -43,37 +47,41 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Blog",
+    title: "TECH FEST",
     icon: web,
+  
   },
   {
-    title: "Tech Fest",
+    title: "Workshops",
     icon: mobile,
+   
   },
   {
-    title: "Gallery",
+    title: "PROJECTS",
     icon: backend,
+    path: '/projects',
   },
   {
-    title: "test",
+    title: "Blog",
     icon: creator,
   },
   {
-    title: "test",
+    title: "GALLERY",
     icon: creator,
   },
   {
-    title: "test",
+    title: "TEAM",
     icon: creator,
   },
   {
-    title: "test",
+    title: "SOON",
     icon: creator,
   },
   {
-    title: "test",
+    title: "SOON",
     icon: creator,
   },
+
  
 
 ];
