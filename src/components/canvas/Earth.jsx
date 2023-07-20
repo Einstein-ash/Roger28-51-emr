@@ -45,7 +45,9 @@
 
 
 
-// ******* doing some changes below 
+// ******* doing some changes below ** 
+// jo chaiye tha,  90% mil gya :)
+
 
 import React, { Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
@@ -60,24 +62,44 @@ const Earth = () => {
   return (
 
     <mesh>
-      <hemisphereLight intensity={2} groundColor='black' />
+      <hemisphereLight intensity={-0.1} groundColor='black' />
     <spotLight
       // position={[-2, 50, 60]}
-      position={[-8, 80, 700]}
+      position={[-8, 0, 700]}
       angle={0.12}
       penumbra={1}
-      intensity={1}
+      intensity={1.4}
       castShadow
       shadow-mapSize={1024}
+     
     />
 
     <primitive
      object={earth.scene} 
      scale={0.66} 
-      position-y={-3.5}
-      position-x={-3}
-      rotation-y={-6.26}
+
+    //  change position of logo 
+      position-y={-3.2}
+      position-x={-4.4}
+
+      // change rotation of logo
+      rotation-y={-6.269}
       rotation-x={-11}
+
+
+
+    // //  change position of logo 
+    //   position-y={-3.54}
+    //   position-x={-5}
+
+    //   // change rotation of logo
+    //   rotation-y={-6.26}
+    //   rotation-x={-10.999}
+ 
+    // 
+      // rotation-x={Math.PI / 2}
+     
+     
        />
 
 
@@ -103,8 +125,8 @@ const EarthCanvas = () => {
     >
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls
-          // autoRotate
-          autoRotateSpeed={13}
+          autoRotate
+          autoRotateSpeed={15}
           enableZoom={false}
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}
@@ -118,3 +140,4 @@ const EarthCanvas = () => {
 };
 
 export default EarthCanvas;
+
