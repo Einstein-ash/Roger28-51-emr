@@ -30,7 +30,7 @@ const Hero = () => {
         </div>
       </div>
 
-       {/* <ComputersCanvas />  */}
+       <ComputersCanvas /> 
 
       {/* <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
@@ -54,3 +54,42 @@ const Hero = () => {
 };
 
 export default Hero;
+
+
+
+
+// import React, { useRef, useState } from "react";
+// import { motion } from "framer-motion";
+// // import emailjs from "@emailjs/browser";
+
+// import { styles } from "../styles";
+// import { EMR_logo_canvas } from "./canvas";
+// import { SectionWrapper } from "../hoc";
+// import { slideIn } from "../utils/motion";
+
+// const Hero = () => {
+ 
+  
+//   return (
+//     <div
+//       className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 `}
+//     >
+//       <motion.div
+//         variants={slideIn("left", "tween", 0.2, 1)}
+//         className='flex-[0.75] rounded-2xl'
+//       >
+//         <p>hello </p>
+//       </motion.div>
+
+//       <motion.div
+//         variants={slideIn("right", "tween", 0.2, 1)}
+//         className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'
+//       >
+//         <EarthCanvas />
+//       </motion.div>
+//     </div>
+//   );
+// };
+
+// // export default SectionWrapper(Hero, "hero");
+// export default Hero;

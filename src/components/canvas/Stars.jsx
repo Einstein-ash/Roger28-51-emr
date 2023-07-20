@@ -18,9 +18,11 @@ const Stars = (props) => {
         <PointMaterial
           transparent
           color='#f272c8'
+          
           size={0.002}
           sizeAttenuation={true}
           depthWrite={false}
+          
         />
       </Points>
     </group>
@@ -29,7 +31,7 @@ const Stars = (props) => {
 
 const StarsCanvas = () => {
   return (
-    <div className='w-full h-auto absolute inset-0 z-[-1]'>
+    <div className='w-full h-auto  absolute inset-0 z-[-1]'>
       <Canvas camera={{ position: [0, 0, 1] }}>
         <Suspense fallback={null}>
           <Stars />
