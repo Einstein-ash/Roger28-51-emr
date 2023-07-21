@@ -16,7 +16,7 @@ const App = () => {
 <StarsCanvas /> 
 
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/Roger28-51-emr/" element={<Home />} />
         {/* <Route path="/" element={<TabLinks />} /> */}
 
         <Route path="/blog" element={<Contact1 />} />
