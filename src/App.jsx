@@ -16,9 +16,9 @@ const App = () => {
 <StarsCanvas /> 
 
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/Roger28-51-emr/" element={<Home />} />
 
-        <Route path="/projects" element={<Experience />} />
+        <Route path="/Roger28-51-emr/projects" element={<Experience />} />
       </Routes>
     </BrowserRouter>
 

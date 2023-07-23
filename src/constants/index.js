@@ -9,12 +9,12 @@ export const navLinks = [
    {
     id: "hero",
     title: "Home",
-    path : '/'
+    path : '/Roger28-51-emr/'
   },
   
   {
-    id: "work",
-    title: "Work",
+    id: "about",
+    title: "LINKS",
   },
   {
     id: "contact",
@@ -36,7 +36,7 @@ const services = [
   {
     title: "PROJECTS",
     icon: emrlogo,
-    path: '/projects',
+    path: '/Roger28-51-emr/projects',
   },
   {
     title: "Blog",
