@@ -1,7 +1,3 @@
-// import home from "./assets/images/emr_logo.png"
-// import testBG from "./assets/images/giphy.gif"
-// import Home1 from "./pages/Home"
-// import Blog from "./components/BlogCard/BlogPage"
 
 //------- background of tab links ------
 import Tech_fest from "./assets/images/Tech_fest.png"
@@ -11,7 +7,7 @@ import workshop from "./assets/images/workshop.png"
 import blog from "./assets/images/blog.png"
 import team from "./assets/images/team.png"
 
-import { About, Hero, Experience, Feedbacks, Hero_old, Navbar, Tech, Works, StarsCanvas ,TabLinks,Contact1,BlogPage
+import { About, Hero, Experience, Feedbacks,  Navbar,Works, StarsCanvas ,TabLinks,BlogPage
 } from "./components";
 
 

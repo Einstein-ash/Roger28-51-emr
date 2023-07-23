@@ -10,6 +10,9 @@
   },
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.13.7",
+    "@mui/material": "^5.13.7",
     "@react-three/drei": "^9.56.24",
     "@react-three/fiber": "^8.11.1",
     "framer-motion": "^9.0.7",
@@ -18,12 +21,11 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.8.1",
     "react-tilt": "^0.1.4",
+    "react-tsparticles": "^2.11.0",
     "react-vertical-timeline-component": "^3.6.0",
+    "slim": "^0.11.1",
     "three": "^0.149.0",
-    
-    "@emotion/styled": "^11.11.0",
-    "@mui/icons-material": "^5.13.7",
-    "@mui/material": "^5.13.7"
+    "tsparticles": "^2.11.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.27",
