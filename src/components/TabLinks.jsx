@@ -1,8 +1,8 @@
 
 import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { tabData } from "../../data.jsx";
-import '../../assets/css/TabLinks.css';
+import { tabData } from "../data.jsx";
+import '../assets/css/TabLinks.css';
 
 const TabComponent = () => {
   const navigate = useNavigate();

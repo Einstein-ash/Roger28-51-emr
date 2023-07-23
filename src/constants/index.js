@@ -1,38 +1,20 @@
 import {
-  mobile,
-  backend,
-  creator,
-  web,
-  javascript,
-  typescript,
-  html,
-  css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
+ 
+  emrlogo,
 } from "../assets";
+
+// import Hero from "../components/Hero";
 
 export const navLinks = [
    {
-    id: "about",
-    title: "About",
+    id: "hero",
+    title: "Home",
+    path : '/Roger28-51-emr/'
   },
+  
   {
-    id: "work",
-    title: "Work",
+    id: "about",
+    title: "LINKS",
   },
   {
     id: "contact",
@@ -42,149 +24,106 @@ export const navLinks = [
 
 const services = [
   {
+    title: "TECH FEST",
+    icon: emrlogo,
+  
+  },
+  {
+    title: "Workshops",
+    icon: emrlogo,
+   
+  },
+  {
+    title: "PROJECTS",
+    icon: emrlogo,
+    path: '/Roger28-51-emr/projects',
+  },
+  {
     title: "Blog",
-    icon: web,
+    icon: emrlogo,
   },
   {
-    title: "Tech Fest",
-    icon: mobile,
+    title: "GALLERY",
+    icon: emrlogo,
   },
   {
-    title: "Gallery",
-    icon: backend,
+    title: "TEAM",
+    icon: emrlogo,
   },
   {
-    title: "test",
-    icon: creator,
+    title: "SOON",
+    icon: emrlogo,
   },
   {
-    title: "test",
-    icon: creator,
+    title: "SOON",
+    icon: emrlogo,
   },
-  {
-    title: "test",
-    icon: creator,
-  },
-  {
-    title: "test",
-    icon: creator,
-  },
-  {
-    title: "test",
-    icon: creator,
-  },
+
  
 
 ];
 
-const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
-];
+  
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "ANPR  ", // title 
+    company_name: "",//project name or lang used
+    icon: emrlogo, // icon for the circle
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    // iconBg: "#18b03a",
+    date: "date-duration",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "first point",
+      "2nd",
+      "3rd",
+      "4th.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "ANPR  ", // title 
+    company_name: "",//project name or lang used
+    icon: emrlogo, // icon for the circle
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    // iconBg: "#18b03a",
+    date: "date-duration",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "first point",
+      "2nd",
+      "3rd",
+      "4th.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    title: "ANPR  ", // title 
+    company_name: "",//project name or lang used
+    icon: emrlogo, // icon for the circle
+    iconBg: "#383E56",
+    // iconBg: "#18b03a",
+    date: "date-duration",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "first point",
+      "2nd",
+      "3rd",
+      "4th.",
     ],
   },
+  {
+    title: "ANPR  ", // title 
+    company_name: "",//project name or lang used
+    icon: emrlogo, // icon for the circle
+    iconBg: "#383E56",
+    // iconBg: "#18b03a",
+    date: "date-duration",
+    points: [
+      "first point",
+      "2nd",
+      "3rd",
+      "4th.",
+    ],
+  },
+  
+  
 ];
 
 const testimonials = [
@@ -233,7 +172,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: emrlogo,
     source_code_link: "https://github.com/",
   },
   {
@@ -254,7 +193,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: emrlogo,
     source_code_link: "https://github.com/",
   },
   {
@@ -275,9 +214,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: emrlogo,
     source_code_link: "https://github.com/",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services,  experiences, testimonials, projects };

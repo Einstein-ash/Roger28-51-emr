@@ -1,5 +1,9 @@
+
+
+// ye scoll kr rha top pr home click krne p
+
 import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
@@ -10,6 +14,7 @@ const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const location = useLocation();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -26,6 +31,13 @@ const Navbar = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  // New function to handle all button clicks
+  const handleButtonClick = () => {
+    setActive("");
+    window.scrollTo(0, 0); // Scroll to the top
+    // window.scrollTo({id}); // Scroll to the top
+  };
+
   return (
     <nav
       className={`${
@@ -35,13 +47,11 @@ const Navbar = () => {
       }`}
     >
       <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
+        {/* Home button using Link component */}
         <Link
           to='/'
           className='flex items-center gap-2'
-          onClick={() => {
-            setActive("");
-            window.scrollTo(0, 0);
-          }}
+          onClick={handleButtonClick} // Handle button click
         >
           <img src={logo} alt='logo' className='w-16 h-13 ' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
@@ -58,7 +68,9 @@ const Navbar = () => {
               } hover:text-white text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(nav.title)}
             >
-              <a href={`#${nav.id}`}>{nav.title}</a>
+              <Link to={nav.path} onClick={handleButtonClick}> {/* Handle button click */}
+                {nav.title}
+              </Link>
             </li>
           ))}
         </ul>
@@ -88,7 +100,9 @@ const Navbar = () => {
                     setActive(nav.title);
                   }}
                 >
-                  <a href={`#${nav.id}`}>{nav.title}</a>
+                  <Link to={nav.path} onClick={handleButtonClick}> {/* Handle button click */}
+                    {nav.title}
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -100,3 +114,14 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+
+
+
+
+
+
+
+
+
+
