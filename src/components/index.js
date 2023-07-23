@@ -10,6 +10,7 @@ import Hero from "./Hero";
 import CanvasLoader from "./Loader";
 import TabLinks from "./TabLinks";
 import BlogPage from "./BlogPage";
+import Contact from "./Contact";
 
 
 
@@ -29,6 +30,7 @@ export {
 
   TabLinks,
   BlogPage,
+  Contact,
 
   StarsCanvas
 };
