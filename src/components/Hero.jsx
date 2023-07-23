@@ -4,6 +4,7 @@
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 
+import loaderImage from "../assets/images/emr_logo_white.png";
 
 import { styles } from "../styles";
 

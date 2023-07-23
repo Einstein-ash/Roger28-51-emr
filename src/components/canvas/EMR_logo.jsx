@@ -99,8 +99,8 @@ const EMR_logo_canvas = () => {
         position: [0, 9 , 8]
       }}
     >
-      {/* <Suspense fallback={<CanvasLoader />}> */}
-      <Suspense fallback={<CanvasLoader2 />}>
+      <Suspense fallback={<CanvasLoader />}>
+      {/* <Suspense fallback={<CanvasLoader2 />}> */}
         <OrbitControls
           autoRotate
           autoRotateSpeed={6}
