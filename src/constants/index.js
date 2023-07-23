@@ -9,7 +9,7 @@ export const navLinks = [
    {
     id: "hero",
     title: "Home",
-    path : '/Roger28-51-emr/'
+    path : '/'
   },
   
   {
