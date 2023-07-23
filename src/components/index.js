@@ -12,6 +12,7 @@ import TabLinks from "./TabLinks";
 import BlogPage from "./BlogPage";
 import Contact from "./Contact";
 import Gallery from "./Gallery";
+import UpcomingWorkshops from "./UpcomingWorkshops";
 
 
 
@@ -33,6 +34,7 @@ export {
   BlogPage,
   Contact,
   Gallery,
+  UpcomingWorkshops,
 
   StarsCanvas
 };

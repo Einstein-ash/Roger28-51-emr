@@ -11,6 +11,7 @@ import {
   StarsCanvas,
   TabLinks,
   Contact,
+  UpcomingWorkshops,
 
   BlogPage,
 } from "../components";
@@ -25,6 +26,7 @@ export default function Home() {
             <Hero />
             {/* <Particles />  */}
             <About />
+            <UpcomingWorkshops />
             <Contact />
 
             <StarsCanvas />
