@@ -7,8 +7,8 @@ import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 
-// import { EMR_logo_canvas } from "./canvas";
-import { EarthCanvas } from "./canvas";
+import { EMR_logo_canvas } from "./canvas";
+// import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
@@ -62,8 +62,8 @@ const Hero = () => {
         variants={slideIn("right", "tween", 0.2, 1)}
         className='xl:flex-1 xl:h-70% md:h-[450px] h-[450px]'
       >
-        {/* <EMR_logo_canvas /> */}
-        <EarthCanvas />
+        <EMR_logo_canvas />
+        {/* <EarthCanvas /> */}
       </motion.div>
     </div>
   );
