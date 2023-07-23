@@ -45,6 +45,7 @@ const services = [
   {
     title: "GALLERY",
     icon: emrlogo,
+    path: '/Roger28-51-emr/gallery',
   },
   {
     title: "TEAM",

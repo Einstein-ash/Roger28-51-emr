@@ -11,6 +11,7 @@ import CanvasLoader from "./Loader";
 import TabLinks from "./TabLinks";
 import BlogPage from "./BlogPage";
 import Contact from "./Contact";
+import Gallery from "./Gallery";
 
 
 
@@ -31,6 +32,7 @@ export {
   TabLinks,
   BlogPage,
   Contact,
+  Gallery,
 
   StarsCanvas
 };

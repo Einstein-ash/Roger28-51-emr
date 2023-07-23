@@ -1,0 +1,125 @@
+* {
+  
+}
+
+.gallary-container {
+  background-image: url("../images/gallery3.jpg");
+  background-size: cover;
+
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
+
+  overflow: hidden;
+  /* padding-top : 100px; */
+}
+
+.home_content {
+  padding-top: 30vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.home_heading-2 {
+  display: flex;
+  width: 100%;
+  color: rgb(65, 146, 77);
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  font-weight: 800;
+  position: absolute;
+  top: 65px;
+}
+
+.home_heading-1 {
+  display: flex;
+  width: 100%;
+  color: rgb(166, 236, 181);
+  justify-content: center;
+  align-items: center;
+  font-size: 7vh;
+  font-weight: 500;
+  position: absolute;
+  top: 100px;
+}
+.swiper-slide-active img {
+  filter: brightness(110%);
+  box-shadow: 0 0 12px 12px green;
+}
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 250px;
+  height: 350px;
+}
+
+@media (max-width: 768px) {
+  .swiper-slide {
+    width: 250px;
+    height: auto;
+  }
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.gallary-container .swiper-container {
+  width: 70%;
+  position: relative;
+  left: 50%;
+  bottom: -16vw;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  z-index: 2;
+  padding-bottom: 3vw;
+
+  top: 8000px;
+}
+
+@media (max-width: 768px) {
+  .gallary-container .swiper-container {
+    bottom: -58vw;
+    padding-bottom: 8vw;
+  }
+}
+
+.swiper-pagination-bullet {
+  width: 25px;
+  height: 5px;
+  border-radius: 5px;
+}
+.pp {
+  color: rgb(65, 146, 77);
+}
+.ss {
+  text-align: center;
+  position: relative;
+  top: -40px;
+  color: rgb(65, 146, 77);
+}
+.dd {
+  position: relative;
+  top: 150px;
+}
+.p1 {
+  position: relative;
+  top: 250px;
+}
+.p2 {
+  position: relative;
+  top: 350px;
+}
+.p3 {
+  position: relative;
+  top: 450px;
+}
+.p4 {
+  position: relative;
+  top: 650px;
+}

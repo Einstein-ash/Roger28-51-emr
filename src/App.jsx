@@ -6,6 +6,7 @@ import { About, Hero, Experience, Feedbacks, Navbar, Works, StarsCanvas ,TabLink
 } from "./components";
 
 import Home from './pages/Home';
+import GalleryComp from './pages/Gallery';
 
 
 const App = () => {
@@ -19,6 +20,8 @@ const App = () => {
         <Route path="/Roger28-51-emr/" element={<Home />} />
 
         <Route path="/Roger28-51-emr/projects" element={<Experience />} />
+
+        <Route path="/Roger28-51-emr/gallery" element={<GalleryComp/>} />
       </Routes>
     </BrowserRouter>
 
