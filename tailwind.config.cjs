@@ -44,7 +44,7 @@ module.exports = {
         // purple-lines-dark
         "hero-pattern": "url('/src/assets/herobg.png')",
 
-    
+    // 
       },
     },
   },
