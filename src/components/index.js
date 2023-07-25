@@ -1,15 +1,14 @@
-import { EarthCanvas, EMR_logo_canvas, StarsCanvas } from './canvas';
+import { EMR_logo_canvas, StarsCanvas } from './canvas';
 import Navbar from "./Navbar";
-import About from "./About";
-
-import Experience from "./Experience";
-import Works from "./Works";
-import Feedbacks from "./Feedbacks";
 import Hero from "./Hero";
+import TabLinks from "./TabLinks";
+import UpcomingWorkshops from "./UpcomingWorkshops";
+import Contact from "./Contact";
+import BlogPage from "./BlogPage";
+import Gallery from "./Gallery";
+
 
 import CanvasLoader from "./Loader";
-import TabLinks from "./TabLinks";
-import BlogPage from "./BlogPage";
 
 
 
@@ -17,18 +16,16 @@ import BlogPage from "./BlogPage";
 
 export {
   Navbar,
-  About,
-
-  Experience,
-  Works,
-  Feedbacks,
+  TabLinks,
   Hero,
   CanvasLoader,
-  EarthCanvas, 
   EMR_logo_canvas,
 
-  TabLinks,
+ 
   BlogPage,
+  Contact,
+  Gallery,
+  UpcomingWorkshops,
 
   StarsCanvas
 };

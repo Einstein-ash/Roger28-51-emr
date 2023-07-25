@@ -9,6 +9,7 @@ import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, meshBounds, useGLTF } from "@react-three/drei";
 
 import CanvasLoader from "../Loader";
+// import CanvasLoader2 from "../Loader_Image";
 // import { EMR_logo_canvas } from ".";
 
 const EMR_logo = () => {
@@ -99,6 +100,7 @@ const EMR_logo_canvas = () => {
       }}
     >
       <Suspense fallback={<CanvasLoader />}>
+      {/* <Suspense fallback={<CanvasLoader2 />}> */}
         <OrbitControls
           autoRotate
           autoRotateSpeed={6}

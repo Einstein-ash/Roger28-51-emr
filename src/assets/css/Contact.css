@@ -1,0 +1,52 @@
+.contact_block {
+    /* background-color: black; */              /*by ash  */
+    /* display: flex; */             /*by ash  */
+    margin: 0px;
+    padding-top: 100px;
+
+}
+
+.contact_header {
+    width: 100%;
+    color: white;
+    padding: 30px 0;
+
+}
+
+.contact_header img {
+    width: 5rem;
+    padding-left: 30px;
+}
+
+.contact_heading {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.contact_body {
+    padding: 30px;
+
+    /*by ash  */
+     display: block;
+     justify-content: space-evenly;
+     
+}
+
+.card {
+    width: 70%;
+    
+    /*by ash  */
+    /* margin-bottom: 50px; */
+    margin: 30px; 
+
+}
+
+
+.map_block{
+    margin-left : 100px;
+    width: 70wh;
+}
+.map_block iframe {
+    width: 90%;
+    height: 600px;
+}
