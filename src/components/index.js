@@ -6,6 +6,8 @@ import UpcomingWorkshops from "./UpcomingWorkshops";
 import Contact from "./Contact";
 import BlogPage from "./BlogPage";
 import Gallery from "./Gallery";
+import SponsorPage from "./SponsorPage";
+import Team from "./Team";
 
 
 import CanvasLoader from "./Loader";
@@ -23,6 +25,8 @@ export {
 
  
   BlogPage,
+  Team,
+  SponsorPage,
   Contact,
   Gallery,
   UpcomingWorkshops,
