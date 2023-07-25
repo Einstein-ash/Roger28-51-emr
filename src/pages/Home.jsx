@@ -21,7 +21,7 @@ export default function Home() {
             <div  className="relative  bg-hero-pattern bg-cover bg-no-repeat bg-center z-0">
               <Hero />
             </div>
-           
+      
         </div>
             <TabLinks />
             <UpcomingWorkshops />
@@ -33,3 +33,6 @@ export default function Home() {
     </div>
   );
 }
+
+
+// ......
