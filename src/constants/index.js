@@ -50,10 +50,12 @@ const services = [
   {
     title: "TEAM",
     icon: emrlogo,
+    path: '/Roger28-51-emr/team',
   },
   {
-    title: "SOON",
+    title: "Sponser",
     icon: emrlogo,
+    path: '/Roger28-51-emr/sponser',
   },
   {
     title: "SOON",
