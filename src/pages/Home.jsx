@@ -1,14 +1,11 @@
 import React from "react";
 
 import {
-  About,
-  Experience,
-  Feedbacks,
+  TabLinks,
   Hero,
   Navbar,
-  Works,
   StarsCanvas,
-  TabLinks,
+ 
   Contact,
   UpcomingWorkshops,
   BlogPage,
@@ -26,13 +23,12 @@ export default function Home() {
             </div>
            
         </div>
-            <About />
+            <TabLinks />
             <UpcomingWorkshops />
             <Contact />
 
             <StarsCanvas />
           </div>
-        <div className="relative z-0">{/* <StarsCanvas /> */}</div>
       </div>
     </div>
   );

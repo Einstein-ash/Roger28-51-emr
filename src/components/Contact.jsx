@@ -86,7 +86,7 @@ const Contact = () => {
         </div>
       </div>
     </div>
-    // </React.Fragment>
+ 
   );
 };
 

@@ -36,11 +36,11 @@ const services = [
   {
     title: "PROJECTS",
     icon: emrlogo,
-    path: '/Roger28-51-emr/projects',
   },
   {
     title: "Blog",
     icon: emrlogo,
+    // path: '/Roger28-51-emr/blog',
   },
   {
     title: "GALLERY",

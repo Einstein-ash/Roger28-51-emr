@@ -1,13 +1,11 @@
 
 // *********** contact .jsx original *****
-
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 
-import loaderImage from "../assets/images/emr_logo_white.png";
+// import loaderImage from "../assets/images/emr_logo_white.png";
 
 import { styles } from "../styles";
-
 import { EMR_logo_canvas } from "./canvas";
 // import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
