@@ -7,7 +7,7 @@ import workshop from "./assets/images/workshop.png"
 import blog from "./assets/images/blog.png"
 import team from "./assets/images/team.png"
 
-import { About, Hero, Experience, Feedbacks,  Navbar,Works, StarsCanvas ,TabLinks,BlogPage
+import {Hero, Navbar,Works, StarsCanvas ,TabLinks,BlogPage
 } from "./components";
 
 
@@ -54,20 +54,4 @@ export const tabData = [
 
 
 
-// data.jsx
 
-
-
-export const services = [
-  {
-    title: "gulu",
-    icon: "path/to/web-dev-icon.png",
-    path: Hero, // Path to the component you want to navigate to
-  },
-  {
-    title: "Mulu",
-    icon: "path/to/mobile-app-icon.png",
-    path: "/mobile-app-development", // Path to another component
-  },
-  // Add more services here...
-];

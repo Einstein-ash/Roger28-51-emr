@@ -29,14 +29,22 @@ module.exports = {
         // "hero-pattern": "url('/src/assets/hero-bg6.jpg')",
         // "hero-pattern": "url('/src/assets/hero-bg7.jpg')",
         // "hero-pattern": "url('/src/assets/hero-bg8.jpg')",
+
+        
         // "hero-pattern": "url('/src/assets/code-bg.jpg')",
-
-
+        
+        
+        
+        
+        // by priyanshu sir 
+        // "hero-pattern": "url('/src/assets/hero-bg10.jpg')",
        
         
 
         // purple-lines-dark
-        // "hero-pattern": "url('/src/assets/herobg.png')",
+        "hero-pattern": "url('/src/assets/herobg.png')",
+
+    // 
       },
     },
   },
