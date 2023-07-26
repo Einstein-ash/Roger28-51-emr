@@ -33,11 +33,11 @@ const Hero = () => {
         className={`absolute inset-0 top-[10px]  max-w-7xl mx-auto ${styles} flex flex-row items-start gap-1`}
       >
         <div className='flex flex-col justify-center items-center mt-30'>
-          <div className='w-5 h-5 rounded-full bg-[#915EFF]' />
+          {/* <div className='w-5 h-5 rounded-full bg-[#915EFF]' />
           <div className='w-1 sm:h-80 h-40 violet-gradient' />
         </div>
 
-        <div>
+        <div> */}
           <h1 className={`${styles.heroHeadText} text-white mt-30`}>
             <span className='text-[#bfbfbff5]'>E</span>
             <span className='text-[#009f069e]'>M</span>

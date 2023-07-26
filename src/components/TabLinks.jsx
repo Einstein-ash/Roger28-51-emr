@@ -3,6 +3,8 @@ import React from "react";
 import Tilt from "react-tilt";
 import { motion } from "framer-motion";
 import { Link, useNavigate } from 'react-router-dom';
+import "../assets/css/TabLinks2.css"
+
 
 import { styles } from "../styles";
 
@@ -71,6 +73,15 @@ const TabLinks = () => {
 };
 
 export default SectionWrapper(TabLinks, "tablinks");
+
+
+
+
+
+
+
+
+
 
 
 
