@@ -54,7 +54,6 @@ const Hero = () => {
       </div>
       </section>
 
-      
       </motion.div>
 
       <motion.div
