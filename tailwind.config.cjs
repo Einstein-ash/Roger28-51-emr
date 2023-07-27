@@ -6,6 +6,8 @@ module.exports = {
     extend: {
       colors: {
         primary: "#050816",
+        // primary: "#01100d", /// for hero-bg15
+    
         primaryy: "#050816b8",
         secondary: "#aaa6c3",
         tertiary: "#151030",
@@ -38,6 +40,15 @@ module.exports = {
         
         // by priyanshu sir 
         // "hero-pattern": "url('/src/assets/hero-bg10.jpg')",
+
+
+        // "hero-pattern": "url('/src/assets/hero-bg11.jpg')",
+        // "hero-pattern": "url('/src/assets/hero-bg12.jpg')",
+        // "hero-pattern": "url('/src/assets/hero-bg13.jpg')",
+        // "hero-pattern": "url('/src/assets/hero-bg14.jpg')",
+        // "hero-pattern": "url('/src/assets/hero-bg15.jpg')",
+        // "hero-pattern": "url('/src/assets/hero-bg16.jpg')",
+        // "hero-pattern": "url('/src/assets/hero-bg17.jpg')",
        
         
 
@@ -48,5 +59,6 @@ module.exports = {
       },
     },
   },
+  
   plugins: [],
 };
